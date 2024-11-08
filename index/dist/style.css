@@ -1,0 +1,36 @@
+body{
+  background-image:url(https://www.iaa-mobility.com/.imaging/mte/vda-theme/1400w/dam/iaa-mobility/visionary-club/16-9_vda_techday_smes_and_startups_partnership_with-potential/jcr:content/IAA-M23_future_tech_day.jpg)
+  }
+
+.form{
+  background-color: #7FFFD4;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  line-height:2em;
+}
+#title{
+  color:#A52A2A;
+}
+#reg-form{
+   margin-left:10px;
+}
+#name-label,#email-label, #number-label, #aboutu, #comment
+{
+  font-family: Times New Roman;
+  font-siz:20px;
+  line-height:1em;
+}
+#comments{
+  width:200px;
+  height:100px;
+}
+.submit{
+  width:80px;
+  font-size:1em;
+  background-color: yellow;
+  color: black;
+  border-radius: 1.2em;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>index</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <!-- Page Title -->
+  <div class="form">
+    <h1 id="title">Participant Registration Form</h1>
+
+    <!-- Short Description -->
+  <p id="description">Date: March 6th,2025<br>
+  Location: DGI Byen</p>
+
+    <!-- Form Section -->
+    <form id="reg-form">
+
+        <!-- Name Input Field -->
+        <label id="name-label">Full Name</label><br>
+        <input type="text" id="name"  placeholder="Enter your name" required><br>
+
+        <!-- Email Input Field -->
+        <label id="email-label" >Email</label><br>
+        <input type="email" id="email"  placeholder="Enter your email" required><br>
+
+        <!-- Number Input Field -->
+        <label id="number-label">Phone</label><br>
+        <input type="text" id="age"  placeholder="Enter your phone number with country code" min="10" max="15" required><br>
+
+        <!-- Dropdown Selection -->
+        <label id="aboutu">Which option best describes you?</label><br>
+        <select id="dropdown" name="role">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+          <option value="job">In-between Jobs</option>
+          <option value="edurep">Educational Respresentative</option>
+        </select>
+
+        <!-- Radio Buttons -->
+        <p>How did you hear about us?</p>
+        <input type="radio" id="social-media" name="source" value="social-media">
+        <label for="social-media">Social Media</label><br>
+        <input type="radio" id="friend" name="source" value="friend">
+        <label for="friend">Friend</label><br>
+         <!-- Textarea for Comments -->
+        <label id="comment">Any additional comments</label><br>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea><br>
+
+        <!-- Submit Button -->
+        <button onclick="goBack()" class="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
